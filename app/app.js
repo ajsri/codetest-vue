@@ -1,2 +1,8 @@
-let testStr = 'testing testing 123'
-document.write(`testStr: ${testStr}`)
+import Vue from 'vue'
+
+let app = new Vue({
+	el: '#pointers',
+	data: {
+		message: 'Hello world'
+	}
+})
